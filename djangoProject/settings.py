@@ -84,8 +84,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.getenv("MYSQL_DATABASE"),
         'USER':os.getenv("MYSQL_USER"),
-        'PASSWORD':os.getenv("MYSQL_PASSWORD"),
-        'HOST':'db', #as in docker
+        'PASSWORD':'Tech@1234',
+        'HOST':'host.docker.internal', #as in docker
         'PORT':"3306"
     }
 }

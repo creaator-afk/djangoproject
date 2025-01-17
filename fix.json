@@ -1,0 +1,50 @@
+[
+    {
+        "model": "user.plan",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "plan_type": "Child Plan",
+            "from_days": "2023-01-01",
+            "to_days": "2023-12-31",
+            "from_year": 2023,
+            "to_year": 2023
+        }
+    },
+    {
+        "model": "user.plan",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "plan_type": "Young Adult Plan",
+            "from_days": "2023-01-01",
+            "to_days": "2023-12-31",
+            "from_year": 2023,
+            "to_year": 2023
+        }
+    },
+    {
+        "model": "user.plan",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "plan_type": "Adult Plan",
+            "from_days": "2023-01-01",
+            "to_days": "2023-12-31",
+            "from_year": 2023,
+            "to_year": 2023
+        }
+    },
+    {
+        "model": "user.plan",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "plan_type": "Senior Plan",
+            "from_days": "2023-01-01",
+            "to_days": "2023-12-31",
+            "from_year": 2023,
+            "to_year": 2023
+        }
+    }
+]

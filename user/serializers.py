@@ -7,6 +7,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = '__all__'
 
+
 class PlanSerializer(serializers.ModelSerializer):
     class Meta:
         model = Plan
